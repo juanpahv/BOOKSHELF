@@ -4,6 +4,10 @@
 
  /* *{border: 1px solid black;}  */
 
+html {
+	scroll-behavior: smooth;
+}
+
 .sectionImg{
 	max-height: 150px;
 	width: auto;
@@ -32,7 +36,7 @@ h1, h2, h3, h4, h5{
     font-family: 'Lato', sans-serif;
 }
 
-h2{
+h2 {
     font-weight: 700;
     text-align: center;
 }
@@ -49,11 +53,11 @@ h2{
 }
 
 .bg-nav {
-  background-color: #87613c;
+	background-color: #87613c;
 }
 
 .bg-sec {
-  background-color: #d4a373;
+	background-color: #d4a373;
 }
 
 .bg-search {
@@ -87,21 +91,30 @@ h2{
   border-radius: 16px;
 }
 
+#categorias {
+	position: sticky;
+	top: 5px;
+	display:inline-block;
+	height: 50px;
+}
+
 /* CARDS CATALOGO */
 
 .btnFav {
   position: absolute;
   background-color: white;
-  padding: 6px;
+  padding: 3px;
   border-radius: 10%;
   top: 1%;
   right: 3%;
-  font-size: x-large;
+  font-size: xx-large;
+  cursor: pointer;
 }
 
-/* .btnFav:hover {
-
-} */
+.btnFav:hover {
+	color: #2e5987;
+	fill: #2e5987;
+}
 
 .card {
   height: 100%;

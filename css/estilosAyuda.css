@@ -1,0 +1,28 @@
+.contenedor {
+    background-color: #d4a373;
+    font-size: 18;
+    height: 200px;
+    text-align: center;
+}
+
+.links a {
+    text-align:center;
+    text-decoration: none;
+    color: white;
+}
+
+.links :hover {
+    color: black;
+}
+
+li {
+    margin: 12px 0px
+}
+
+ul{
+    list-style-type: none;
+}
+
+p {
+    font-size: 12px;
+}
