@@ -7,7 +7,7 @@ const libroSeleccionado = libros[tituloSeleccionado];
 document.getElementById('mainContainer').innerHTML =`
 <div class="row">
                 <div class="col-lg-3">
-                    <img src="/img/portadas/romance/cumbres borrascosas.png" style="display: block; margin: auto; max-height: 300px;">
+                    <img src="${libroSeleccionado.rutaImg}" style="display: block; margin: auto; max-height: 300px;">
                     
                 </div>
                 <div class="col-lg-9 py-3 px-5">

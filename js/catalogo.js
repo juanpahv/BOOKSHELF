@@ -1,8 +1,34 @@
-const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+document.querySelectorAll('.libro').forEach(item => {
+    item.addEventListener('click',(e)=>{
+        // event.preventDefault();
+        var card;
 
-document.getElementsByClassName('libro').addEventListener('click',(e)=>{
+        e.path.forEach(element => {
+            if(element.className == 'card'){
+                card = element;
+            }
+        })
 
-    const titulo = e.target.textContent;
-    window.localStorage.setItem('tituloSeleccionado',titulo)
-});
+        if(!card){
+            return
+        }   
+        const titulo = card.querySelector('.card-title').innerText;
+        window.localStorage.setItem('tituloSeleccionado',titulo)
+    });
+})
+
+
+
+document.querySelectorAll('.btnFav').forEach(item => {
+    item.addEventListener('click',(e)=>{
+        const btnClicked = e.target;
+
+        if(btnClicked.classList.contains("bi-bookmark-fill")){
+            btnClicked.classList.remove("bi-bookmark-fill");
+            btnClicked.classList.add("bi-bookmark");
+        }else{
+            btnClicked.classList.remove("bi-bookmark");
+            btnClicked.classList.add("bi-bookmark-fill");
+        }
+    });
+})

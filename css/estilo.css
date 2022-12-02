@@ -99,6 +99,25 @@ h2 {
 	height: 50px;
 }
 
+.popover-categorias {
+	background: #87613c;
+}
+
+.popover-header {
+	color: white;
+	background-color: #87613c;
+	border: #87613c;
+}
+
+.popover-body {
+	background-color: #87613c;
+	border: #87613c;
+}
+
+.arrow {
+	color: #87613c !important;
+}
+
 
 /* CARDS CATALOGO */
 
@@ -113,10 +132,10 @@ h2 {
 	cursor: pointer;
 }
 
-.btnFav:hover {
+/* .btnFav:hover {
 	color: #2e5987;
 	fill: #2e5987;
-}
+} */
 
 .card {
 	height: 100%;
