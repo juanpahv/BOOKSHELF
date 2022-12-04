@@ -19,7 +19,7 @@ function actualizarLibros () {
             <a href="libroSample.html" style="text-decoration: none; color: black;">
                 <img src="${libro.rutaImg}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title">${libro.titulo}</h5>
+                    <p class="card-title">${libro.titulo}</p>
                     <p class="card-text">${libro.autor}</p>
                 </div>
             </a>
