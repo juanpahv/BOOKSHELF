@@ -91,20 +91,19 @@
     </header>
   <br>
   <br>
-
-<div class="container containerSign" id="container">  <!-- Aqui es donde esta el problema -->
+<div class="container containerSign" id="container">  
 	<div class="form-container sign-up-container">
 		<form action="/catalogo.html" id="formulario-InicioSesion-1">
 			<h1 class="texto">Crear cuenta</h1>
 			<span class="texto">Utilice su correo electrónico para registrarse.</span>
             <br>
-			<input type="text" id="usuario" placeholder="Name" required class="inputSign"/>
+			<input type="text" id="usuario" placeholder="Nombre" required class="inputSign"/>
             <br>
-			<input type="email" id="email-1" placeholder="Email" required class="inputSign"/>
+			<input type="email" id="email-1" placeholder="Correo" required class="inputSign"/>
             <br>
-			<btn type="password" id="password-1" placeholder="Password" required class="inputSign"/>
+			<input type="password" id="password-1" placeholder="Contraseña" required class="inputSign"/>
             <br>
-			<button class="btnSign">Sign Up</button>
+			<button class="btnSign">Registrarse</button>
 		</form>
 	</div>
 	<div class="form-container sign-in-container">
@@ -112,26 +111,26 @@
 			<h1 class="texto">BookShell</h1>
             <span class="texto">Utilice su cuenta.</span>
             <br>
-			<input type="email" id="email" placeholder="Email"  required class="inputSign"/>
+			<input type="email" id="email" placeholder="Correo"  required class="inputSign"/>
             <br>
-			<input type="password" id="password" placeholder="Password" required class="inputSign"/>
+			<input type="password" id="password" placeholder="Contraseña" required class="inputSign"/>
             <br>
 			<a class="texto" href="#">¿Ha olvidado su contraseña?</a>
             <br>
-			<button class="btnSign">Log In</button>
+			<button class="btnSign">Iniciar sesión</button>
 		</form>
 	</div>
 	<div class="overlay-container">
 		<div class="overlay">
 			<div class="overlay-panel overlay-left">
 				<h1 class="texto-1">¡Bienvenido!</h1>
-				<p class="texto-1">Si ya está registrado, inicie sesión para acceder a la compra de cualquiera de nuestros libros.</p>
-				<button class="ghost btnSign" id="signIn">Log In</button>
+				<p class="texto-1">Si ya está registrado, inicie sesión para acceder a su espacio.</p>
+				<button class="ghost btnSign" id="signIn">Iniciar sesión</button>
 			</div>
 			<div class="overlay-panel overlay-right">
 				<h1 class="texto-1">¡Hola!</h1>
-				<p class="texto-1">Para acceder a la compra de cualquiera de nuestros libros, es necesario crear una cuenta con sus datos personales.</p>
-				<button class="ghost btnSign" id="signUp">Sign Up</button>
+				<p class="texto-1">Para acceder al repositorio de libros, es necesario crear una cuenta con sus datos personales.</p>
+				<button class="ghost btnSign" id="signUp">Registrarse</button>
 			</div>
 		</div>
 	</div>
@@ -172,7 +171,6 @@
 				</p>
 			</div>
 		</div>
-	</div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="/js/script.js"></script>

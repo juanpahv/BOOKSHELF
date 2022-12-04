@@ -774,9 +774,9 @@
             </div>
         </div>
 
-        <button class="btn rounded-pill popover-categorias d-md-none"
+        <button class="btn rounded-pill popover-categorias d-md-none" tabindex="0"
                 data-bs-toggle="popover"
-                data-bs-title="Categorías"
+                data-bs-placement="left"
                 >
             <i class="bi-list"></i>
         </button>
@@ -828,7 +828,7 @@
         
         const popover = new bootstrap.Popover('.popover-categorias', {
             title: '<h4 style="color: white;"><b>Categorías</b></h4>',
-            content: '<div class="px-2 mx-2"><h6><a href="#CienciasYMatematicas" class="links">Ciencias y matemáticas</a></h6><h6><a href="#Romance" class="links">Romance</a></h6><h6><a href="#Politica" class="links">Política</a></h6><h6><a href="#MisterioYThriller" class="links">Misterio y thriller</a></h6><h6><a href="#ComputadorasYTecnologia" class="links">Computadoras y tecnología</a></h6>',
+            content: '<div class="pe-5"><a href="#CienciasYMatematicas" class="links">Ciencias y matemáticas</a><br><a href="#Romance" class="links">Romance</a><br><a href="#Politica" class="links">Política</a><br><a href="#MisterioYThriller" class="links">Misterio y thriller</a><br><a href="#ComputadorasYTecnologia" class="links">Computadoras y tecnología</a>',
             container: '.popover-categorias',
             html: true
             })

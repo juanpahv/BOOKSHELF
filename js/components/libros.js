@@ -309,19 +309,19 @@ const libros = {
     {
         titulo : "Drones: modelado y control de cuadrotores",
         autor : "Roger Miranda Colorado",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Alfaomega",
+        ISBN : 9786075383149,
         rutaImg : "img/portadas/computadoras/Drones modelado y control de cuadrotores.jpg",
-        sinopsis : ""
+        sinopsis : "El estudio del modelado y control de cuadrotores, la construcción de un prototipo de estos vehículos y hacerlo funcionar constituye una experiencia de aprendizaje completa para el estudiante, ya que conjunta la teoría con aspectos prácticos. En tal sentido, cada vez son más las publicaciones en donde un cuadrotor es considerado como una herramienta de enseñanza atractiva y muy útil para los estudiantes. La presente publicación tiene como propósito fundamental mostrar los conceptos principales respecto al modelado y control de estos vehículos cuadrotores, además de proporcionar un panorama sobre el origen, la evolución, las ventajas, las desventajas y las aplicaciones de esta clase de vehículos aéreos no tripulados (VANT). Cabe destacar que este libro es quizá el primer documento escrito en castellano acerca del control en lazo cerrado de cuadrotores y puede ser de gran ayuda para un curso completo sobre cuadrotores, o bien, algunos de sus capítulos se pueden analizar separadamente en diferentes cursos. También se presentan simulaciones numéricas en ausencia y cuando existen perturbaciones externas al cuadrotor y cambios paramétricos en su modelo."
     },
     "E renovarse o morir" :
     {
         titulo : "E renovarse o morir",
         autor : "Silvia Leal",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Lid Editorial",
+        ISBN : 9788483562697,
         rutaImg : "img/portadas/computadoras/E renovarse o morir.jpg",
-        sinopsis : ""
+        sinopsis : "Cada vez estamos en un mundo más conectado; los medios digitales seguirán creciendo en penetración poblacional y en exposición en horas y uso. Las nuevas tendencias tecnológicas abren un campo de desarrollo para las empresas que además están obligadas a adaptarse a los hábitos de consumo de un cliente más digital. eRENOVARSE o MORIR nos presenta las 7 tendencias digitales que marcarán nuestro futuro desarrollo y que supondrán un punto de inflexión en el ámbito profesional: Realidad Aumentada, Gamificación, Drones, Impresoras 3D, Bioimpresion, Internet de las Cosas y Big Data. A través de sus páginas nos ayudará a entender su esencia y conocer historias de éxito inspiradoras que te ayudarán a innovar. Es, por lo tanto, un libro que habla de tendencias digitales aplicadas en futbol, armas militares y revoluciones médicas, así como en gestión de la productividad, eficiencia y marketing y ventas. Todo ello bien ligado, con montones de casos y un estilo fácil de comprender que esperamos les inspire."
     },
     "Horizontes digitales" :
     {
@@ -330,124 +330,125 @@ const libros = {
         editorial : "Gedisa",
         ISBN : 9788418525315,
         rutaImg : "img/portadas/computadoras/Horizontes digitales.png",
-        sinopsis : ""
+        sinopsis : "Horizontes digitales, encara los procesos y condiciones de reorganización simbólica de la sociedad contemporánea, a partir de la interrogación por la intensa y constante renovación tecnológica. Da cuenta de la manera en que nuestro tiempo reconstruye la forma de verse a sí mismo, tanto por la digitalización de su mirada, como por la digitalización de lo que ve. Emprende el análisis de las implicaciones de esta refiguración transversal en las regiones de la política, la sociedad, las comunicaciones, la cultura, la educación y la historia."
     },
     "Impresion 3D" :
     {
         titulo : "Impresion 3D",
         autor : "Sergio Gómez González",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Alfaomega / Marcombo",
+        ISBN : 9786075386294,
         rutaImg : "img/portadas/computadoras/Impresión 3D.jpg",
-        sinopsis : ""
+        sinopsis : "Si quiere iniciarse y conocer todos los secretos de la impresión 3D de forma rápida, fácil y divertida, este libro será su aliado. Esta segunda edición totalmente actualizada con más de 600 imágenes a color es un manual práctico, muy completo, que explica qué es la impresión 3D y repasa el estado del arte actual. Describe todas las etapas, desde el diseño hasta la impresión de un modelo 3D, con herramientas gratuitas freeware. Parte de la primera fase, en la que se obtiene un modelo CAD 3D virtual, ya sea a partir de su diseño asistido por ordenador, escaneado o por la reconstrucción tridimensional de imágenes médicas (DICOM); sigue con el análisis y verificación de malla; y finaliza con el rebanado necesario que genera el lenguaje de programación ISO (G-Codes) interpretado por las impresoras. Incluye consejos de diseño e impresión, impresión de modelos biomédicos, descripción de los filamentos más usados, repositorios e impresores en línea con modelos 3D gratis y servicios de impresión a domicilio. También enumera las principales configuraciones de las impresoras de modelado por deposición fundida (FDM), así como las marcas y modelos más destacados. El libro incluye 33 prácticas paso a paso que resumen los contenidos descritos e inciden en los aspectos más importantes del diseño, la verificación de malla, el diseño de soportes, el rebanado y la preparación e impresión 3D. No espere a conseguir su ejemplar. Impresión 3D es el libro de referencia en español, el más vendido y el mejor valorado por los usuarios en las redes sociales y las plataformas de venta online más importantes."
     },
     "¿Nos enferma la tecnología?" :
     {
         titulo : "¿Nos enferma la tecnología?",
         autor : "Ian Douglas",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Blume",
+        ISBN : 9788418459047,
         rutaImg : "img/portadas/computadoras/Nos enferma la tecnología.jpg",
-        sinopsis : ""
+        sinopsis : "Las modernas tecnologías han mejorado nuestras vidas en muchos aspectos: hoy, podemos comunicarnos en tiempo real con amigos y colegas de todo el mundo y realizar compras y actividades bancarias sin salir de casa. Pero, a medida que la tecnología cala en la vida personal, ¿nos hace más daño que bien? ¿Nos volvemos ansiosos, deprimidos y estamos socialmente aislados, ajenos a la influencia manipuladora de los algoritmos diseñados para mantenernos comprometidos y condicionar nuestra imagen del mundo? ¿Los videojuegos o las apuestas on-line son en una adicción inquietante? Este libro, riguroso y esclarecedor, evalúa el impacto del aumento de uso de las pantallas y de las interacciones diarias con la tecnología personal en las elecciones individuales, relaciones y la salud mental y física, y sugiere las mejores opciones para mitigar cualquier efecto adverso. La Gran Idea, una serie transgresora y divulgativa, provocadora y sugerente, dirige una mirada nueva a las ideas fundamentales con más repercusión en nuestra vida y en el mundo actual. Su enfoque visual único y la organización estratificada de los textos facilitan la comprensión de conceptos complejos y le proporcionan a todo el público las herramientas necesarias para participar en el debate."
     },
     "Robots sociales: del temor a la esperanza en los sirvientes mecanicos" :
     {
         titulo : "Robots sociales: del temor a la esperanza en los sirvientes mecanicos",
         autor : "omas Perales Benito",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Alfaomega",
+        ISBN : 9786075386225,
         rutaImg : "img/portadas/computadoras/Robots sociales del temor a la esperanza en los sirvientes mecánicos.jpg",
-        sinopsis : ""
+        sinopsis : "El propósito fundamental de Robots Sociales es mostrar las características del robot humanoide actual, el llamado robot social, conocido con este nombre debido a que la función de este tipo de robots es ayudar a las personas a realizar actividades que representan dificultades para ser llevadas a cabo o a personas con limitaciones físicas. Se hace una exposición de aquellos robots que han adquirido mayor notoriedad independientemente de que sean comerciales o no; el objetivo es que el lector conozca qué son y cómo pueden utilizarse los robots sociales. Todos los robots mostrados están contextualizados en situaciones cotidianas, es decir, se analiza la manera en que pueden servir al ser humano en las actividades del día a día. También se han incluido robots mascotas que han proporcionado óptimos resultados en determinadas patologías infantiles y diversos trastornos de la senectud."
     },
     "1 + 1 No es (siempre) 2" :
     {
         titulo : "1 + 1 No es (siempre) 2",
         autor : "John D. Barrow",
-        editorial : "",
-        ISBN : 0,
+        editorial : "ALIANZA EDITORIAL",
+        ISBN : 9788411480451,
         rutaImg : "/img/portadas/ciencia/1 + 1 no es siempre 2.png",
-        sinopsis : ""
+        sinopsis : "En esta obra el prestigioso matemático y divulgador John D. Barrow ofrece un repaso y análisis de los fundamentos filosóficos y conceptuales de la matemática moderna."
     },
     "Apocalipsis matématico" :
     {
         titulo : "Apocalipsis matématico",
         autor : "Eduardo Saenz De Cabezón",
-        editorial : "",
-        ISBN : 0,
+        editorial : "PLAN B",
+        ISBN : 9788417809041,
         rutaImg : "/img/portadas/ciencia/apocalipsis matematico.png",
-        sinopsis : ""
+        sinopsis : "Para algunas personas resolver un ejercicio de matemáticas puede ser un suplicio. Un infierno. ¡Un verdadero apocalipsis! Pero este libro va a cambiar eso para siempre."
     },
     "Cómo nace un teorema: una aventura matemática" :
     {
         titulo : "Cómo nace un teorema: una aventura matemática",
         autor : "Cedric Villani",
-        editorial : "",
-        ISBN : 0,
+        editorial : "LA CATARATA",
+        ISBN : 9788413522586,
         rutaImg : "/img/portadas/ciencia/como nace un teorema.png",
-        sinopsis : ""
+        sinopsis : "¿Cómo trabaja un matemático? ¿Cuáles son sus modos de invención? ¿Qué vida late tras las fórmulas y demostraciones matemáticas? "
     },
     "El cisne negro" :
     {
         titulo : "El cisne negro",
         autor : "Nassim Nicholas Taleb",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Booket Paidós México",
+        ISBN : 9786079202552,
         rutaImg : "/img/portadas/ciencia/el cisne negro.png",
-        sinopsis : ""
+        sinopsis : "¿Qué es un cisne negro? Para empezar, es un suceso improbable, sus consecuencias son importantes y todas las explicaciones que se puedan ofrecer a posteriori no tienen en cuenta el azar y solo buscan encajar lo imprevisible en un modelo perfecto. "
     },
     "¡Que las matemáticas te acompañen!" :
     {
         titulo : "¡Que las matemáticas te acompañen!",
         autor : "Clara Grima Ruiz",
-        editorial : "",
-        ISBN : 0,
+        editorial : "PLANETA",
+        ISBN : 9788408252955,
         rutaImg : "/img/portadas/ciencia/que las matematicas te acompañen.png",
-        sinopsis : ""
+        sinopsis : "No te dejes atrapar por el lado oscuro. Que las matemáticas te acompañen. Mira a tu alrededor y pregúntate quién controla el mundo."
     },
     "La teoría del todo" :
     {
         titulo : "La teoría del todo",
         autor : "Stephen W. Hawking",
-        editorial : "",
-        ISBN : 0,
+        editorial : "PLANETA",
+        ISBN : 9788408252955,
         rutaImg : "/img/portadas/ciencia/la teoria del todo.png",
-        sinopsis : ""
+        sinopsis : "¿Cómo trabaja un matemático? ¿Cuáles son sus modos de invención? ¿Qué vida late tras las fórmulas y demostraciones matemáticas? "
     },
     "¿Existe la suerte?" :
     {
         titulo : "¿Existe la suerte?",
         autor : "Nassim Nicholas Taleb",
-        editorial : "",
-        ISBN : 0,
+        editorial : "PLANETA",
+        ISBN : 9788408136279,
         rutaImg : "/img/portadas/ciencia/existe la suerte.png",
-        sinopsis : ""
+        sinopsis : "Paidos recupera un texto sobre el azar del matematico mas influyente en Wall Street. El autor del best seller internacional El cisne negro. Todo el mundo quiere tener suerte en la vida. Pero, ¿qué hace que algunos de nosostros tengamos más éxito que otros?."
+        
     },
     "Los números de la vida" :
     {
         titulo : "Los números de la vida",
         autor : "Kit Yates",
-        editorial : "",
-        ISBN : 0,
+        editorial : "Kit Yates",
+        ISBN : 9788417552947,
         rutaImg : "/img/portadas/ciencia/los numeros de la vida.png",
-        sinopsis : ""
+        sinopsis : "¿Y si las matemáticas fueran la única forma de comprender cómo te sientes, de entender la sociedad, de intentar articular el mundo? "
     },
     "La magia de las matemáticas" :
     {
         titulo : "La magia de las matemáticas",
         autor : "VV.AA.",
-        editorial : "",
-        ISBN : 0,
+        editorial : "RBA LIBROS",
+        ISBN : 9788491871309,
         rutaImg : "/img/portadas/ciencia/La Magia De Las Matematicas.png",
-        sinopsis : ""
+        sinopsis : "Un recorrido por cuatro de los grandes temas que conforman el universo de las matemáticas: la proporción áurea, los enigmáticos números primos, los secretos del número pi y el infinito."
     },
     "Mathematikos: vidas y hallazgos de los matemáticos en grecia y roma" :
     {
         titulo : "Mathematikos: vidas y hallazgos de los matemáticos en grecia y roma",
         autor : "VV.AA.",
-        editorial : "",
-        ISBN : 0,
+        editorial : "ALIANZA EDITORIAL",
+        ISBN : 9788413622507,
         rutaImg : "/img/portadas/ciencia/Mathematikos.png",
-        sinopsis : ""
+        sinopsis : "Este libro singular y extraordinario descubre y recopila los principales textos originales de los matemáticos de la Antigüedad griega y romana, normalmente inaccesibles o dispersos, que de forma habitual han llegado hasta nosotros contados o expuestos siempre de quinta o sexta mano y como premisa"
     },
     
 };

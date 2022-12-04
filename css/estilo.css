@@ -99,6 +99,21 @@ h2 {
 	height: 50px;
 }
 
+/* :root {
+	--bs-popover-bg: #87613c;
+}
+
+.popover {
+	background-color: var(--bs-popover-bg);
+	background: #87613c !important;
+	border: #87613c;
+} */
+
+.popover {
+	margin-bottom: 4rem;
+	border-width: 0px;
+}
+
 .popover-categorias {
 	position:fixed;
 	width:60px;
@@ -128,11 +143,10 @@ h2 {
 .popover-body {
 	background-color: #87613c;
 	border: #87613c;
+	position: top;
 }
 
-.arrow {
-	color: #87613c !important;
-}
+
 
 
 /* CARDS CATALOGO */
@@ -383,3 +397,10 @@ form {
 .containerSign.right-panel-active .overlay-right {
 	transform: translateX(20%);
 }
+
+
+/* BOTÓN ENVIAR */
+#enviar{
+	background-color:#2e5987;
+	color:#fff;
+	}
