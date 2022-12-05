@@ -58,10 +58,26 @@ document.getElementById('mainContainer').innerHTML =`
     </div>
 `;
 
-document.getElementById('favController').addEventListener('click', (e)=>{
+document.getElementById('favController').addEventListener('click', async (e)=>{
 
     if(e.target.classList.contains('Agregar')){
         savedTitles.push(libroSeleccionado.titulo);
+        try{
+            const email = window.localStorage.getItem('mail');
+            const titles = JSON.stringify(savedTitles);
+            const body = {
+                mail : email,
+                likedTitles : titles
+            }
+            const res = await axios.put('http://localhost:3001/data', body, {
+                headers: {
+                    'token-session': window.localStorage.getItem('tokenSesion')
+                }
+                });
+        }catch(e){
+            alert("Error");
+            return
+        }
         window.localStorage.setItem('savedTitles',JSON.stringify(savedTitles));
         
         e.target.classList.remove("Agregar");
@@ -71,6 +87,22 @@ document.getElementById('favController').addEventListener('click', (e)=>{
         const indexOfTitle = savedTitles.indexOf(libroSeleccionado.titulo);
         if(indexOfTitle != -1){
             savedTitles.splice(indexOfTitle,1);
+            try{
+                const email = window.localStorage.getItem('mail');
+                const titles = JSON.stringify(savedTitles);
+                const body = {
+                    mail : email,
+                    likedTitles : titles
+                }
+                const res = await axios.put('http://localhost:3001/data', body, {
+                    headers: {
+                        'token-session': window.localStorage.getItem('tokenSesion')
+                    }
+                    });
+            }catch(e){
+                alert("Error");
+                return
+            }
             window.localStorage.setItem('savedTitles',JSON.stringify(savedTitles));
         }
         e.target.classList.remove("Eliminar");

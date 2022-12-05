@@ -1,11 +1,10 @@
 function handleLoginFormSubmit(event){
     event.preventDefault();
 
-    var user=document.querySelector('#usuario').value;
     var email= document.querySelector('#email-1').value;
     var pass= document.querySelector('#password-1').value;
 
-    console.log(user,email,pass);
+    console.log(email,pass);
 
 }
 document

@@ -99,16 +99,6 @@ h2 {
 	height: 50px;
 }
 
-/* :root {
-	--bs-popover-bg: #87613c;
-}
-
-.popover {
-	background-color: var(--bs-popover-bg);
-	background: #87613c !important;
-	border: #87613c;
-} */
-
 .popover {
 	margin-bottom: 4rem;
 	border-width: 0px;
@@ -146,9 +136,6 @@ h2 {
 	position: top;
 }
 
-
-
-
 /* CARDS CATALOGO */
 
 .btnFav {
@@ -163,13 +150,7 @@ h2 {
 }
 
 .card {
-	height: 90%;
-}
-
-.card-body {
-	text-overflow: ellipsis;
-	white-space: nowrap;
-  	overflow: hidden;
+	height: 100%;
 }
 
 /* CARRUSEL */

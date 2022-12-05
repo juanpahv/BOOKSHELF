@@ -62,9 +62,9 @@ const libros = {
         rutaImg : "img/portadas/romance/Nosotros en la luna.png",
         sinopsis : "Una historia sobre el amor, el destino y la búsqueda de uno mismo."
     },
-    "Llamame por tu nombre" :
+    "Llámame por tu nombre" :
     {
-        titulo : "Llamame por tu nombre",
+        titulo : "Llámame por tu nombre",
         autor : "Jojo Moyes",
         editorial : "ALFAGUARA",
         ISBN : 9788420473895,
@@ -197,7 +197,7 @@ const libros = {
         rutaImg : "img/portadas/misterio/El ladrón de cuerpos.jpg",
         sinopsis : "Transcurre en el siglo XX y narra las aventuras del vampiro Lestat, que cansado de su condición actual y recordando constantemente su condición humana y a Claudia, la niña vampiro, decide terminar con su vida en el Desierto de Gobi."
     },
-    "El secuestro de la hermana Tegualda" :
+    "El secuestro de la hermana..." :
     {
         titulo : "El secuestro de la hermana Tegualda",
         autor : "Hernán Rivera",
@@ -260,7 +260,7 @@ const libros = {
         rutaImg : "img/portadas/misterio/Sin rastro.jpg",
         sinopsis : "Durante unas vacaciones en familia, Wendy y Paul descubren que su hija pequeña ha desaparecido sin dejar rastro. Sin detenerse ante nada para encontrarla, la búsqueda desesperada de la verdad conducirá a una revelación impactante."
     },
-    "Tipos que no duermen por la noche" :
+    "Tipos que no duermen..." :
     {
         titulo : "Tipos que no duermen por la noche",
         autor : "Iván Farías",
@@ -269,7 +269,7 @@ const libros = {
         rutaImg : "img/portadas/misterio/Tipos que no duermen por la noche.jpg",
         sinopsis : "Tipos que no duermen por la noche (Nitro Noir), doce cuentos suscritos al género negro, consigna más una serie de intentos que de certidumbres. Su lectura trae por fuerza una desconsolada sensación: la de que todo en él pudo haberse resuelto mejor. El mayor tropiezo proviene del estilo."
     },
-    "Alimentos seguros microbiologia" :
+    "Alimentos seguros" :
     {
         titulo : "Alimentos seguros microbiologia",
         autor : "Stephen Forsythe<",
@@ -278,16 +278,16 @@ const libros = {
         rutaImg : "img/portadas/computadoras/Alimentos seguros microbiología.jpg",
         sinopsis : "Introducción a los alimentos seguros - Aspectos básicos - Enfermedades transmitidas por los alimentos - Flora microbiana de los alimentos - Microorganismos productores de toxiinfecciones alimentarias - Métodos de detección - Instrumentos de gestión de la seguridad alimentaria - Criterios microbiológicos - Valoración del riesgo microbiológico - Reglamentos y autoridades - Glosario de términos - Apéndice: Recursos de seguridad alimentaria en la red (World Wide Web) - Referencias - Índice alfabético."
     },
-    "Automatizacion electroneumatica: metodos sistematicos" :
+    "Automatización electroneumática" :
     {
-        titulo : "Automatizacion electroneumatica: metodos sistematicos",
+        titulo : "Automatización electroneumática: métodos sistemáticos",
         autor : "Juan Camilo Vázquez Cortes",
         editorial : "Ediciones de la U",
         ISBN : 9789587627305,
         rutaImg : "img/portadas/computadoras/Automatización electroneumática métodos sistemáticos.png",
         sinopsis : "Se presenta todo lo relacionado con los dispositivos propios del área electroneumática y el diseño de automatismos básicos utilizando métodos basados en la LÓGICA DE BOOLE y sistemáticos como lo son el cascada y el paso a paso."
     },
-    "Curso practico para programacion de avr..." :
+    "Curso práctico para programación" :
     {
         titulo : "Curso practico para programacion de avr...",
         autor : "Ernesto Paredes Martínez",
@@ -296,7 +296,7 @@ const libros = {
         rutaImg : "img/portadas/computadoras/Curso práctico para programación de AVE - proyectos completos, código y explicación.jpg",
         sinopsis : "Este libro es un apoyo para el usuario que se inicia en la programación de un AVR, ya que es una guía paso a paso de cómo configurar y poner en marcha este microcontrolador. También incluye algunos circuitos prácticos, secciones de código y tips para su correcta programación."
     },
-    "Diagramas binarios. Teoria y aplicaciones" :
+    "Diagramas binarios" :
     {
         titulo : "Diagramas binarios. Teoria y aplicaciones",
         autor : "Rafael Gamboa",
@@ -305,7 +305,7 @@ const libros = {
         rutaImg : "img/portadas/computadoras/Diagramas binarios. teoría y aplicaciones.jpg",
         sinopsis : "La intención del autor de este libro es la de paliar la escasa información escrita que existe en español con relación a la teoría y, sobre todo, las aplicaciones del tema consistente en la comprensión y manejo de los diagramas de equilibrio en sistemas binarios, ya sea con aleaciones metálicas como con cerámicos. Una parte del libro se dedica a resaltar la importancia existente en la correlación de dichos diagramas con la microestructura que aparece en las diversas aleaciones. Tiene especial relevancia también el estudio teórico-matemático que se realiza sobre los campos bifásicos que aparecen en el estado sólido, ya sea en sistemas de solubilidad parcial o de insolubilidad .Así mismo, y al final de la parte correspondiente a la exposición teórica de diagramas binarios, se incorpora un capítulo con ejercicios unos resueltos y otros propuestos con el fin de que el lector asiente los conceptos correspondientes."
     },
-    "Drones: modelado y control de cuadrotores" :
+    "Drones" :
     {
         titulo : "Drones: modelado y control de cuadrotores",
         autor : "Roger Miranda Colorado",
@@ -350,10 +350,10 @@ const libros = {
         rutaImg : "img/portadas/computadoras/Nos enferma la tecnología.jpg",
         sinopsis : "Las modernas tecnologías han mejorado nuestras vidas en muchos aspectos: hoy, podemos comunicarnos en tiempo real con amigos y colegas de todo el mundo y realizar compras y actividades bancarias sin salir de casa. Pero, a medida que la tecnología cala en la vida personal, ¿nos hace más daño que bien? ¿Nos volvemos ansiosos, deprimidos y estamos socialmente aislados, ajenos a la influencia manipuladora de los algoritmos diseñados para mantenernos comprometidos y condicionar nuestra imagen del mundo? ¿Los videojuegos o las apuestas on-line son en una adicción inquietante? Este libro, riguroso y esclarecedor, evalúa el impacto del aumento de uso de las pantallas y de las interacciones diarias con la tecnología personal en las elecciones individuales, relaciones y la salud mental y física, y sugiere las mejores opciones para mitigar cualquier efecto adverso. La Gran Idea, una serie transgresora y divulgativa, provocadora y sugerente, dirige una mirada nueva a las ideas fundamentales con más repercusión en nuestra vida y en el mundo actual. Su enfoque visual único y la organización estratificada de los textos facilitan la comprensión de conceptos complejos y le proporcionan a todo el público las herramientas necesarias para participar en el debate."
     },
-    "Robots sociales: del temor a la esperanza en los sirvientes mecanicos" :
+    "Robots sociales" :
     {
-        titulo : "Robots sociales: del temor a la esperanza en los sirvientes mecanicos",
-        autor : "omas Perales Benito",
+        titulo : "Robots sociales: del temor a la esperanza en los sirvientes mecánicos",
+        autor : "Tomas Perales Benito",
         editorial : "Alfaomega",
         ISBN : 9786075386225,
         rutaImg : "img/portadas/computadoras/Robots sociales del temor a la esperanza en los sirvientes mecánicos.jpg",
@@ -377,7 +377,7 @@ const libros = {
         rutaImg : "/img/portadas/ciencia/apocalipsis matematico.png",
         sinopsis : "Para algunas personas resolver un ejercicio de matemáticas puede ser un suplicio. Un infierno. ¡Un verdadero apocalipsis! Pero este libro va a cambiar eso para siempre."
     },
-    "Cómo nace un teorema: una aventura matemática" :
+    "Cómo nace un teorema" :
     {
         titulo : "Cómo nace un teorema: una aventura matemática",
         autor : "Cedric Villani",
@@ -441,7 +441,7 @@ const libros = {
         rutaImg : "/img/portadas/ciencia/La Magia De Las Matematicas.png",
         sinopsis : "Un recorrido por cuatro de los grandes temas que conforman el universo de las matemáticas: la proporción áurea, los enigmáticos números primos, los secretos del número pi y el infinito."
     },
-    "Mathematikos: vidas y hallazgos de los matemáticos en grecia y roma" :
+    "Mathematikos..." :
     {
         titulo : "Mathematikos: vidas y hallazgos de los matemáticos en grecia y roma",
         autor : "VV.AA.",
