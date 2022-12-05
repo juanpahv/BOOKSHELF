@@ -27,8 +27,7 @@ document.querySelectorAll('.libro').forEach(item => {
         const titulo = card.querySelector('.card-title').innerText;
         window.localStorage.setItem('tituloSeleccionado',titulo)
     });
-    console.log('1');
-    const title = libros[item.querySelector('.card-title').innerText].titulo;
+    const title = item.querySelector('.card-title').innerText;
     if(savedTitles.includes(title)){
         item.parentElement.children[0].classList.remove("bi-bookmark");
         item.parentElement.children[0].classList.add("bi-bookmark-fill");
@@ -43,7 +42,7 @@ document.querySelectorAll('.btnFav').forEach(async (item) => {
             await e.path.forEach(async (pathItem) => {
                 if(pathItem.className == 'card'){
                     const unlikedTitle = pathItem.querySelector('.card-title').innerText;
-                    const indexOfTitle = savedTitles.indexOf(libros[unlikedTitle].titulo);
+                    const indexOfTitle = savedTitles.indexOf(unlikedTitle);
                     if(indexOfTitle != -1){
                         savedTitles.splice(indexOfTitle,1);
                         try{
@@ -59,20 +58,21 @@ document.querySelectorAll('.btnFav').forEach(async (item) => {
                                 }
                                 });
                         }catch(e){
+                            console.error(e);
                             alert("Error");
                             return
                         }
                         window.localStorage.setItem('savedTitles',JSON.stringify(savedTitles));
+                        btnClicked.classList.remove("bi-bookmark-fill");
+                        btnClicked.classList.add("bi-bookmark");
                     }
                 }
             })
-            btnClicked.classList.remove("bi-bookmark-fill");
-            btnClicked.classList.add("bi-bookmark");
         }else{
             await e.path.forEach(async (pathItem) => {
                 if(pathItem.className == 'card'){
                     const likedTitle = pathItem.querySelector('.card-title').innerText;
-                    savedTitles.push(libros[likedTitle].titulo);
+                    savedTitles.push(likedTitle);
                     try{
                         const email = window.localStorage.getItem('mail');
                         const titles = JSON.stringify(savedTitles);
@@ -86,14 +86,15 @@ document.querySelectorAll('.btnFav').forEach(async (item) => {
                             }
                             });
                     }catch(e){
+                        console.error(e);
                         alert("Error");
                         return
                     }
                     window.localStorage.setItem('savedTitles',JSON.stringify(savedTitles));
+                    btnClicked.classList.remove("bi-bookmark");
+                    btnClicked.classList.add("bi-bookmark-fill");
                 }
             })
-            btnClicked.classList.remove("bi-bookmark");
-            btnClicked.classList.add("bi-bookmark-fill");
         }
     });
 })

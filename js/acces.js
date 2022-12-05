@@ -4,8 +4,6 @@ function handleLoginFormSubmit(event){
     var email= document.querySelector('#email-1').value;
     var pass= document.querySelector('#password-1').value;
 
-    console.log(email,pass);
-
 }
 document
 .querySelector('#formulario-InicioSesion-1')
@@ -17,8 +15,7 @@ function handleLoginFormSubmit1(event){
     var e= document.querySelector('#email').value;
     var password= document.querySelector('#password').value;
 
-    console.log(e,password);
-
+    
 }
 document
 .querySelector('#formulario-InicioSesion')

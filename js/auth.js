@@ -21,7 +21,6 @@ document.getElementById('signUp').addEventListener('click',async () =>{
             }
             return
         }
-    console.log(respuesta);
     window.localStorage.setItem('tokenSesion',respuesta.data.sesion.tokenSesion)
     window.localStorage.setItem('mail',datos.mail);
     window.location.href = 'index.html';
@@ -53,12 +52,12 @@ document.getElementById('logIn').addEventListener('click',async () =>{
             return
         }
     window.localStorage.setItem('tokenSesion',respuesta.data.sesion.tokenSesion);
-    var likedTitles = respuesta.data.likedTitles;
+    var likedTitles = JSON.parse(respuesta.data.likedTitles);
     if(!likedTitles){
         likedTitles =[];
     }
     window.localStorage.setItem('savedTitles',JSON.stringify(likedTitles));
-    window.localStorage.setItem('mail',JSON.stringify(respuesta.data.mail));
-    // window.location.href = 'index.html';
+    window.localStorage.setItem('mail',respuesta.data.mail);
+    window.location.href = 'index.html';
     
 })

@@ -36,7 +36,7 @@
                     <div class="collapse navbar-collapse px-2" id="navbarSupportedContent">
                         <div class="container d-flex flex-wrap justify-content-md-end text-md-center">
                             <div class="col-12 col-md-1 py-2 py-md-0 me-md-2 mx-lg-0 order-2">
-                                <a class="links" href="/sign in.html">Cuenta</a>
+                                <a class="links" href="/sign in.html" id="cuenta" >Cuenta</a>
                             </div>
                             <div class="col-12 col-md-1 py-2 py-md-0 order-4">
                                 <a class="links" href="/contact.html">Contacto</a>
@@ -65,8 +65,8 @@
                 </div>
                 <div class="col-8 pt-md-3">
                     <div class="input-group my-4 my-md-1">
-                        <input type="search" class="form-control" placeholder="Buscar"></input>
-                        <button class="input-group-text">
+                        <input type="search" class="form-control" placeholder="Buscar" id="searchValue"></input>
+                        <button class="input-group-text" id="btnSearch">
                             <i class="bi bi-search"></i>
                         </button>
                     </div>
@@ -94,13 +94,13 @@
         <article class="" style="border-top: 1px solid black;">
             <div class="container-fluid bg-nav d-md-inline-block bg-sec py-2 bg-sec">
                 <div class="row text-center">
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-4 py-2">
                         <a href="ayuda.html" class="links">Ayuda</a>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-4 py-2">
                         <a href="comoComprar.html" class="links">¿Cómo agregar a favoritos?</a>
                     </div>
-                    <div class="col-sm-12 col-md-4">
+                    <div class="col-sm-12 col-md-4 py-2">
                         <a href="cuenta.html" class="links">Cuenta</a>
                     </div>
                 </div>
@@ -111,9 +111,10 @@
                 <h2 class="d-flex justify-content-center py-4">Cuenta</h2>
             </div>
             <div class="container texto">
-                <p style="font-size: 22px;">
+                <h5><b>
                     ¿Cuáles son los beneficios de tener una cuenta?
-                </p>
+                </b>
+                </h5>
                 <p>
                     Puedes agregar en el apartado de favoritos todos los libros que quieras guardar!
                 </p>
@@ -135,7 +136,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-md-3 item text">
-                            <h3>INFORMACÍON</h3>
+                            <h3>INFORMACIÓN</h3>
                             <p>Teléfono:</p>
                             <p>+52 477 762 6337</p>
                             <br>
@@ -145,7 +146,7 @@
                         <div class="col-sm-6 col-md-3 item">
                             <h3>MI CUENTA</h3>
                             <ul>
-                                <li><a href="#">Ingreso a la cuenta</a></li>
+                                <li><a href="/sign in.html">Ingreso a la cuenta</a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 item text">
@@ -155,9 +156,9 @@
                         <br>
                         <center>
                         <div class="col-md-6 item social">
-                        <a href="https://www.facebook.com/"><i class="bi bi-facebook"  style="color: #FFD1A4; font-size: 30px;"></i></a>
-                        <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter" style="color: #FFD1A4;font-size: 30px;"></i></a>
-                        <a href="https://www.instagram.com/"><i class="bi bi-instagram" style="color: #FFD1A4; font-size: 30px;"></i></a>
+                            <a href="https://www.facebook.com/"><i class="bi bi-facebook"  style="color: #FFD1A4; font-size: 30px;"></i></a>
+                            <a href="https://twitter.com/?lang=es"><i class="bi bi-twitter" style="color: #FFD1A4;font-size: 30px;"></i></a>
+                            <a href="https://www.instagram.com/"><i class="bi bi-instagram" style="color: #FFD1A4; font-size: 30px;"></i></a>
                         </div>
                         </center>
                     </div>
@@ -167,8 +168,9 @@
                 </div>
             </div>
         </div>
-    </footer> 
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
+    <script src="/js/logout.js"></script>
+    <script src="/js/search.js"  type="module"></script>
 </body>
 </html>
